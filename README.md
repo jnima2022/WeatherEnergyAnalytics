@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 WeatherEnergyAnalytics is a Streamlit-based web application that analyzes how weather patterns impact commodity prices and energy demand. It provides traders and analysts with key insights by visualizing trends and forecasting demand based on weather conditions.
 
-[Click here to watch the demo](https://github.com/jnima2022/WeatherEnergyAnalytics/issues/1#issue-2849892519)
+[Click here to watch the demo](https://private-user-images.githubusercontent.com/121528869/412711782-49d38a54-eaef-47fd-92bf-678725e2abe1.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk0MjEwNjUsIm5iZiI6MTczOTQyMDc2NSwicGF0aCI6Ii8xMjE1Mjg4NjkvNDEyNzExNzgyLTQ5ZDM4YTU0LWVhZWYtNDdmZC05MmJmLTY3ODcyNWUyYWJlMS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxM1QwNDI2MDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03YzQ1M2NlZTdhNTkxM2QwYTg2MjkwODhlZTVlYzQ4MGY1MGE1ZTE2OGJlMDUwMmNhY2EwMzJjNThjZDcxNWU3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.adI33-BvNzqQ7gkyM7QC8dnTy9Yevv1AJ4fT_aDHTiU)
 
 ## 🚀 Features
 - Select a commodity (Natural Gas, Crude Oil, Electricity)
@@ -25,18 +25,18 @@ WeatherEnergyAnalytics is a Streamlit-based web application that analyzes how we
 
 ## 🛠 Installation
 1. Clone the repository:
-   git clone https://github.com/jnima2022/WeatherEnergyAnalytics.git
-   cd WeatherEnergyAnalytics
+   - git clone https://github.com/jnima2022/WeatherEnergyAnalytics.git
+   - cd WeatherEnergyAnalytics
 
 2. Create a virtual environment and activate it:
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+   - python -m venv .venv
+   - source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
 
 3. Install dependencies:
-   pip install -r requirements.txt
+   - pip install -r requirements.txt
 
 4. Run the application:
-   streamlit run app.py
+   - streamlit run app.py
 
 ## 📊 Data Sources
 - **Weather Data:** Open-Meteo API
