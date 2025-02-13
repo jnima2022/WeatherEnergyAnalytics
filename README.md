@@ -41,3 +41,21 @@ WeatherEnergyAnalytics is a Streamlit-based web application that analyzes how we
 ## 📊 Data Sources
 - **Weather Data:** Open-Meteo API
 - **Commodity Prices:** Mock data (can be replace with a financial API for real prices)
+
+## Tech Stack
+
+- **Streamlit**: Interactive web app framework for data visualization.
+- **Pandas**: Data handling and manipulation.
+- **Plotly**: Interactive charts for time series data.
+- **Requests**: Fetching weather data from external APIs.
+- **NumPy**: Generating mock data for commodity prices.
+- **Python**: Core programming language for app logic.
+- **Datetime**: Handling time-related data.
+
+## How It Can Be Improved
+
+- **Real API Integration**: Replace mock commodity price data with real market data APIs.
+- **Advanced Analytics**: Add machine learning models to predict commodity prices.
+- **Scalability**: Store historical data in a database and add caching.
+- **Customization**: Allow users to input their own location and commodity.
+- **UI Enhancements**: Improve styling and interactivity for a polished look.
