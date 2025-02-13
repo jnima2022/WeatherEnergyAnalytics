@@ -20,8 +20,7 @@ def get_commodity_prices(commodity, start_date, end_date):
 
 # Function to analyze weather impact on commodity prices
 def analyze_weather_impact(weather_data, price_data):
-    # Implement your analysis logic here
-    # This is a simplified example
+
     weather_df = pd.DataFrame({
         'Date': pd.to_datetime(weather_data['hourly']['time']),
         'Temperature': weather_data['hourly']['temperature_2m'],
@@ -41,7 +40,7 @@ location = st.selectbox("Select a location", ["New York", "Chicago", "Houston", 
 start_date = st.date_input("Start date", datetime.now() - timedelta(days=30))
 end_date = st.date_input("End date", datetime.now())
 
-# Mapping of locations to coordinates (replace with actual coordinates)
+# Mapping of locations to coordinates
 coordinates = {
     "New York": (40.7128, -74.0060),
     "Chicago": (41.8781, -87.6298),
@@ -87,7 +86,7 @@ if st.button("Analyze"):
 st.subheader("Energy Demand Forecast")
 st.write("Based on the weather forecast and historical data, we can predict energy demand trends:")
 
-# Mock energy demand forecast (replace with actual predictive model)
+# Mock energy demand forecast
 demand_forecast = pd.DataFrame({
     'Date': pd.date_range(start=end_date, periods=7),
     'Forecasted Demand': np.random.uniform(80, 120, 7)
